@@ -1,4 +1,8 @@
 .DS_store
+<<<<<<< HEAD
+=======
+
+>>>>>>> 978a5d5d94676c97a0d16c4e240f58ac931afcae
 config.py
 
 # Byte-compiled / optimized / DLL files
