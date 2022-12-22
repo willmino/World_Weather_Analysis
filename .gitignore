@@ -5,6 +5,8 @@
 >>>>>>> 978a5d5d94676c97a0d16c4e240f58ac931afcae
 config.py
 
+config.cpython-37.pyc
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
