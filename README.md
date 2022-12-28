@@ -31,7 +31,7 @@ We used the citipy moule and the `nearest_city()` function to get the closest ci
 
 &nbsp;&nbsp;&nbsp;&nbsp;`cities.append(city)`
 
-Using the OpenWeatherMap API, a response of weather data from these cities was delivered in `.json` format. Our API calls navigated through dictionary and list data structures to retrieve the specific pieces of information we requested such as maximum temperature of a city, humidity, clouds, wind speed, and a general description of the current weather. This information was appended to a new dataframe, row by row, as each API call per city was made. A try and except structure was established so that geoocordinates without a nearby city would not end the code or ellicit a traceback. The resulting dataframe was created as summarized by the following code block:
+Using the OpenWeatherMap API, a response of weather data from these cities was delivered in `.json` format. Our API calls navigated through dictionary and list data structures to retrieve the specific pieces of information we requested such as maximum temperature of a city, humidity, clouds, wind speed, and a general description of the current weather. This information was appended to a new dataframe, row by row, as each API call per city was made. A try and except structure was established so that geocoordinates without a nearby city would not end the code or ellicit a traceback. The resulting dataframe was created as summarized by the following code block:
 
 
 `city_data = []`
