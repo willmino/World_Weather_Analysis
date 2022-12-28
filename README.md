@@ -200,11 +200,11 @@ We then used an iterated loop to perform Geoapify API calls to get the nearby ho
 
 &nbsp;&nbsp;&nbsp;&nbsp;`print(f"{hotel_df.loc[index, 'City']} - nearest hotel: {hotel_df.loc[index, 'Hotel Name']}")`
 
-The resulting dataframe from this iterated loop of API calls contained the all the hotel information we needed for our customers. A plot was subsequently generated and was stored in the `Vacation_Search` folder of this github repository. 
+The resulting dataframe from this iterated loop of API calls contained all the hotel information we needed for our customers. A plot was subsequently generated and was stored in the `Vacation_Search` folder of this github repository. 
 
 ![WeatherPy_vacation_map](https://github.com/willmino/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
-From our list of hotels, we picked four locaitons in Brazil we thought would be perfect for our customers. These cities were Rio Grande, Cidreira, and Araquari. These were all beautiful coastal cities. The `.loc` function with conditionals were used to construct 4 separate dataframes for each city which were then merged into a single dataframe.
+From our list of hotels, we picked four locaitons in Brazil we thought would be perfect for our customers. These cities were Rio Grande, Cidreira, and Araquari. These were all beautiful coastal cities. The `.loc` function with conditionals was used to construct 4 separate dataframes for each city which were then merged into a single dataframe.
 
 `vacation_start = vacation_df.loc[vacation_df["City"] == "Rio Grande"]`
 
@@ -272,7 +272,7 @@ Using another iterated loop to perform API calls, we generated all of the coordi
 
 `legs = route_response["features"][0]["geometry"]["coordinates"]`
 
-To specifically construct the trip route on the itinerary map, we iterated through the response json set to variable called `legs`. The longitudes and latitudes from every point of the route on the trip were added to a new dictionary called `route_df`.
+To specifically construct the trip route on the itinerary map, we iterated through the response json set to a variable called `legs`. The longitudes and latitudes from every point of the route on the trip were added to a new dictionary called `route_df`.
 
 `# Create and empty list to store the longitude of each step`
 
