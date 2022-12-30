@@ -1,7 +1,7 @@
 # World_Weather_Analysis
 
 ## Overview
-At PLANMYTRIP, an internet related services company in the hotel and lodging industry, I was tasked with presenting data to optimize the customer search page. We used pandas dataframes, OpenWeatherMap API, random number generation, the citipy mododule, geoviews, and Geoapify API to randomly generate ideal travel destination for customers. We then found hotels near these cities to help craft the perfect vacation destinations for our customers.
+At PLANMYTRIP, an internet related services company in the hotel and lodging industry, I was tasked with presenting data to optimize the customer search page. We used pandas dataframes, OpenWeatherMap API, random number generation, the citipy mododule, geoviews, and Geoapify API to randomly generate ideal travel destinations for customers. We then found hotels near these cities to help craft the perfect vacation destinations for our customers.
 
 
 ### Purpose
